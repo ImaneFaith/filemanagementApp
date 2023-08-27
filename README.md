@@ -24,6 +24,11 @@ For notifications, we are using FCM. User should register first by sending its R
 
        docker run -p 16379:6379 -d redis:6.0 redis-server --requirepass "mypass"
 
+- Before running File Manager Service run
+
+      docker compose up -d at the root directory "file-manager-service"
+      to run docker and zookeper
+
 - Run each service main function.
 
 # Documentation endpoints
