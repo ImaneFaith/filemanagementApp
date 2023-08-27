@@ -12,12 +12,12 @@ import io.swagger.v3.oas.annotations.security.SecurityScheme;
 @OpenAPIDefinition(
         info = @Info(
                 contact = @Contact(
-                        name = "FMS",
+                        name = "AS",
                         email = "contact@filemanagementapp.com",
                         url = "http://filemanagementapp.org"
                 ),
-                description = "File manager service API",
-                title =  "OpenApi Spec - File service API",
+                description = "Authentication Service based on JWT Tokens",
+                title =  "OpenApi Spec - Authentication Service",
                 version = "1.0"
 
         ),
